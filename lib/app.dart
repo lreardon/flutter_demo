@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'models/location_list.dart';
+import 'screens/location_list_screen.dart';
 
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: LocationList());
+    return MaterialApp(home: LocationListScreen());
   }
 }

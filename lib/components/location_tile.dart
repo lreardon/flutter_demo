@@ -20,12 +20,20 @@ class LocationTile extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(title,
-                style: this.darkTheme
-                    ? Styles.locationTileTitleDark
-                    : Styles.locationTileTitleLight),
-            Text(subTitle, style: Styles.locationTileSubtitle),
-            Text(location, style: Styles.locationTileLocation)
+            Text(
+              title,
+              style: this.darkTheme
+                  ? Styles.locationTileTitleDark
+                  : Styles.locationTileTitleLight,
+            ),
+            Text(
+              subTitle,
+              style: Styles.locationTileSubtitle,
+            ),
+            Text(
+              location,
+              style: Styles.locationTileLocation,
+            )
           ],
         ));
   }

@@ -6,7 +6,11 @@ part 'location_fact.g.dart';
 class LocationFact {
   final String title;
   final String text;
-  LocationFact({required this.title, required this.text});
+
+  LocationFact({
+    required this.title,
+    required this.text,
+  });
 
   factory LocationFact.fromJson(Map<String, dynamic> json) =>
       _$LocationFactFromJson(json);
