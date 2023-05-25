@@ -1,0 +1,4 @@
+#Thu May 25 17:07:37 NPT 2023
+base.0=/Users/landho/git/demos/flutter_demo/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
